@@ -1,8 +1,15 @@
 h1{
     text-align: center;
     margin: 20px;
-
 }
 #principal{
-    margin: 20px;
+
+    width: 80%;
+    margin-top: 40px;
+}
+
+#boton_radio{
+
+    margin-top: 30px;
+    padding-top: 30px;
 }
