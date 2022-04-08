@@ -6,6 +6,12 @@ h1{
 p{
     font-size: 15px;
 }
+.logo{
+    background-color: #f5f5f5;
+    min-height: 50px;
+    padding-top: 40px;
+    
+}
 #principal{
     background: #ffffff;
     width: 80%;

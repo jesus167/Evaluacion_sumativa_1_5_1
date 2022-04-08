@@ -27,8 +27,8 @@ body {
 }
 
 .menu li{
-     display:inline-block;
-     text-align: justify;
+    display:inline-block;
+    text-align: justify;
 }
 
 .menu li a:hover{
