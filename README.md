@@ -3,10 +3,10 @@ Evaluación sumativa 1.5.1
 
 Integrantes:
 
-Susana Gallardo//
+Susana Gallardo
 
-Keila Martinez//
+Keila Martinez
 
-Juan Pablo Vera//
+Juan Pablo Vera
 
 Orlando Gutiérrez
