@@ -1,15 +1,37 @@
+.imagen_fondo{
+    background-image: url(img/campo_flores.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    
+}
 h1{
+    
     text-align: center;
     margin: 20px;
 }
+p{
+    font-size: 15px;
+}
 #principal{
-
+    background: #ffffff;
     width: 80%;
     margin-top: 40px;
+    padding: 20px;
+    border-radius: 1%;
 }
 
 #boton_radio{
 
     margin-top: 30px;
     padding-top: 30px;
+}
+#logo{
+    width: 20%;
+    height: 30%;
+}
+#texto{
+    margin-top: 40px;
+    text-align: justify;
 }
