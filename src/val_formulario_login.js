@@ -9,4 +9,7 @@ document.getElementById('email').addEventListener('input', function() {
     } else {
       valido.innerText = "Ingresa tu correo con un formato valido";
     }
+
+    
+    
 });

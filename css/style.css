@@ -34,6 +34,13 @@ p{
     text-align: justify;
 }
 
+/*  ----- ----- Estilos para nav bar, boton activo  -----   -----   */
+  .active{
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+    border-bottom: 5px solid rgba(0, 71, 32, 0.753);
+  }
+
 
 /* ----- -----  Estilos para Validacion ----- ----- */
 .formulario__grupo-correcto .formulario__validacion-estado {
