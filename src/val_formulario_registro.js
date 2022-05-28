@@ -79,6 +79,7 @@ formulario.addEventListener('submit', (e) => {
 	const terminos = document.getElementById('terminos');
 	if(campos.nombre && campos.password && campos.correo && terminos.checked ){
 		formulario.reset();
+		alert("Se ha registrado con exito")
 
 		document.getElementById('formulario__mensaje-exito').classList.add('formulario__mensaje-exito-activo');
 		setTimeout(() => {
@@ -89,6 +90,6 @@ formulario.addEventListener('submit', (e) => {
 			icono.classList.remove('formulario__grupo-correcto');
 		});
 	} else {
-		document.getElementById('formulario__mensaje').classList.add('formulario__mensaje-activo');
+		alert("Ha ocurrido un problema");
 	}
 });
