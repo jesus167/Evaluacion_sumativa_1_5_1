@@ -21,7 +21,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-link" aria-current="page" href="galeria.html">Tienda</a>
+                    <a class="nav-link active" aria-current="page" href="tienda.html">Tienda</a>
                     <a class="nav-link" href="tracking.html">Sigue tu compra</a>
                     <a class="nav-link" href="donacion.html">Donaciones</a>
                     <a class="nav-link" href="contacto.html">Contacto</a>
@@ -90,23 +90,23 @@
   
           <div class="card bg-glass">
             <div class="card-body px-4 py-5 px-md-5">
-              <form>
+              <form id="formulario_login">
   
                 <!-- Email input -->
                 <div class="form-outline mb-4">
-                  <input type="email" id="email" class="form-control" placeholder="Correo electronico"/>
+                  <input type="email" for="emailog" id="email" class="form-control" placeholder="Correo electronico"/>
                   <label class="form-label" id="emailOK" for="form3Example3"></label>    
                 </div>
 
                 <!-- Password input -->
                 <div class="form-outline mb-4">
-                  <input type="password" id="password" class="form-control" placeholder="Password"/>
+                  <input type="password" for="passlog" id="password" class="form-control" placeholder="Password"/>
                   <label class="form-label" id="passwordOK" for="form3Example4"></label>
                 </div>
   
   
                 <!-- Submit button -->
-                <button type="submit" id="boton_login" class="btn btn-primary btn-block mb-4">
+                <button type="submit" id="boton_login" class="form-outline btn btn-primary btn-block mb-4 w-100">
                   Iniciar
                 </button>
   
@@ -124,11 +124,28 @@
     </div>
   </section>
 
+      <!--FOOTER-->
+
+      <div class="b-example-divider"></div>
+
+      <div class="container">
+          <footer class="py-3 my-4">
+              <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                  <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Inicio</a></li>
+                  <li class="nav-item"><a href="./templates/tienda.html" class="nav-link px-2 text-muted">Tienda</a></li>
+                  <li class="nav-item"><a href="./templates/tracking.html" class="nav-link px-2 text-muted">Sigue tu compra</a></li>
+                  <li class="nav-item"><a href="./templates/donacion.html" class="nav-link px-2 text-muted">Donaciones</a></li>
+                  <li class="nav-item"><a href="./templates/contacto.html" class="nav-link px-2 text-muted">Contacto</a></li>
+              </ul>
+              <p class="text-center text-muted">&copy; 2022 Company, Inc</p>
+          </footer>
+      </div>
+
   
   <!-- Section: Design Block -->
   <!-- Llamado a javascrit y jquery-->
 
-    <script src="./src/val_formulario_login.js"></script>   
+    <script src="../src/val_formulario_login.js"></script>   
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
       integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
